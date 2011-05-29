@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="jd/plugins/optional/neembuu/|jd/plugins/optional/remoteserv/|jd/plugins/optional/remoteserv/|org/jdownloader/extensions/langfileeditor/" kind="src" path="src"/>
+	<classpathentry kind="src" path="WebContent"/>
 	<classpathentry kind="src" path="translations"/>
 	<classpathentry kind="src" path="themes"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
@@ -91,5 +92,44 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/JDUpdater"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/UpdateClient"/>
 	<classpathentry kind="lib" path="ressourcen/libs_ext/mqtt.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jetty-server-7.4.2.v20110526.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jetty-util-7.4.2.v20110526.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jetty-webapp-7.4.2.v20110526.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jsp/jetty-jsp-2.1-7.4.2.v20110526.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jsp/com.sun.el_1.0.0.v201004190952.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jsp/ecj-3.6.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jsp/javax.el_2.1.0.v201004190952.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jsp/javax.servlet.jsp_2.1.0.v201004190952.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jsp/javax.servlet.jsp.jstl_1.2.0.v201004190952.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jsp/org.apache.jasper.glassfish_2.1.0.v201007080150.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jsp/org.apache.taglibs.standard.glassfish_1.2.0.v201004190952.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/freemarker-2.3.16.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/javassist-3.11.0.GA.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/ognl-3.0.1.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/struts2-convention-plugin-2.2.3.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/struts2-core-2.2.3.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/struts2-embeddedjsp-plugin-2.2.3.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/struts2-jquery-grid-plugin-3.0.2.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/struts2-jquery-mobile-plugin-3.0.2.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/struts2-jquery-plugin-3.0.2.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/xwork-core-2.2.3.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jetty-plus-7.4.2.v20110526.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jetty-security-7.4.2.v20110526.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jetty-servlet-7.4.2.v20110526.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jetty-servlets-7.4.2.v20110526.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jetty-http-7.4.2.v20110526.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jetty-io-7.4.2.v20110526.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jetty-xml-7.4.2.v20110526.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/jetty-continuation-7.4.2.v20110526.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/annotations/javax.annotation_1.0.0.v20100513-0750.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/jetty/annotations/org.objectweb.asm_3.1.0.v200803061910.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/struts2-config-browser-plugin-2.2.3.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/struts2-json-plugin-2.2.3.jar"/>
+	<classpathentry kind="lib" path="ressourcen/libs/struts/google-collections-1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
